@@ -1,0 +1,16 @@
+{
+  "name": "AutoCaptcha for VTOPbeta",
+  "version": "0.0.1",
+  "author": "Abhishek Kankani",
+  "description": "Autofills captcha in VIT Academics Page (vtopbeta.vit.ac.in)",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://vtopbeta.vit.ac.in/vtop/"],
+      "js": ["captcha.js"]
+    }
+  ],
+  "manifest_version": 2
+}
