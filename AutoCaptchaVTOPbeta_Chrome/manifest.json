@@ -9,7 +9,7 @@
   "content_scripts": [
     {
       "matches": ["*://vtopbeta.vit.ac.in/vtop/"],
-      "js": ["captcha.js"]
+      "js": ["jquery.min.js","captcha.js"]
     },
     {
       "matches": ["*://vtopbeta.vit.ac.in/vtop/processLogin"],
